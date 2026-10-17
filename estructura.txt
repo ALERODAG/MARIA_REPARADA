@@ -1,0 +1,52 @@
+# backend
+
+sga-api/
+│
+├── .env                  # PRIMERO QUE SE CREA. Variables de entorno secretas (Credenciales de MySQL, JWT, etc.)
+├── .gitignore            # Archivos que Git debe ignorar (venv, __pycache__, .env)
+├── requirements.txt      # Dependencias del proyecto (fastapi, sqlalchemy, pymysql, uvicorn)
+├── README.md             # Documentación inicial del proyecto
+│
+└── app/                  # Carpeta raíz del código de la aplicación
+    ├── __init__.py
+    ├── main.py           # Punto de entrada de FastAPI (Configuración y arranque)
+    │
+    ├── config/           # Configuración global del sistema
+    │   ├── __init__.py
+    │   └── database.py   # SEGUNDO QUE SE CREA. Conexión, motor y SessionLocal de MySQL
+    │
+    ├── models/           # Modelos del ORM de SQLAlchemy (Mapeo de tablas de MySQL)
+    │   ├── __init__.py
+    │   ├── academico.py  # Modelos: matriculas, cursos, grados, periodos, calificaciones
+    │   ├── personas.py   # Modelos: estudiantes, acudientes, docentes, estudiante_acudiente
+    │   └── sistema.py    # Modelos: usuarios, roles, usuario_roles, auditoria
+    │
+    ├── schemas/          # Esquemas de Pydantic (Validación de JSON de entrada y salida)
+    │   ├── __init__.py
+    │   ├── matricula.py  # Esquemas para payloads de matrículas y respuestas
+    │   ├── persona.py    # Esquemas para estudiantes, docentes y acudientes
+    │   └── usuario.py    # Esquemas para login y gestión de usuarios
+    │
+    └── routers/          # Controladores / Endpoints de la API organizados por módulos
+        ├── __init__.py
+        ├── matriculas.py # Rutas: POST /matriculas/registrar, GET /matriculas/{id}
+        ├── estudiantes.py# Rutas: GET, POST, PUT, DELETE para estudiantes
+        └── docentes.py   # Rutas: Gestión de profesores y asignación de materias
+
+
+# frontend
+
+mi-proyecto-escolar/           # Carpeta raíz del proyecto general
+│
+├── sga-backend/               # 🏆 TODO EL PROYECTO QUE HICIMOS ANTES (FastAPI + MySQL)
+│   ├── app/
+│   ├── .env
+│   └── requirements.txt
+│
+└── sga-frontend/              # 🎨 PROYECTO DEL FRONTEND (React, Vue, Angular o Next.js)
+    ├── src/
+    │   ├── components/        # Botones, formularios de matrícula, tablas visuales
+    │   ├── views/             # Vista de Matrículas, Vista de Notas, Vista de Login
+    │   └── services/          # Archivos que hacen "fetch" o "axios.post" a tu FastAPI
+    ├── package.json
+    └── .env                   # Apunta a la URL del backend (ej: VITE_API_URL=http://localhost:8000)

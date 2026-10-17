@@ -1,0 +1,51 @@
+agent-detector==2.0.0
+annotated-doc==0.0.5
+annotated-types @ file:///C:/Users/task_I9q8sV6XQQOO7_0/croot/annotated-types_1783681211730/work
+anyio==4.15.0
+certifi @ file:///C:/Users/task_AcMfs0gtTGupp_0/croot/certifi_1785412617480/work/certifi
+click==8.5.0
+colorama==0.4.6
+detect-installer==0.2.1
+dnspython==2.8.0
+email-validator==2.3.0
+fastapi==0.141.1
+fastapi-cli==0.0.32
+fastapi-cloud-cli==0.25.0
+fastar==0.12.0
+greenlet @ file:///C:/Users/task_177494940766419/croot/greenlet_1774949582240/work
+h11==0.16.0
+httpcore==1.0.9
+httptools==0.8.0
+httpx==0.28.1
+idna==3.19
+Jinja2==3.1.6
+markdown-it-py==4.2.0
+MarkupSafe==3.0.3
+mdurl==0.1.2
+packaging==26.3
+pydantic @ file:///C:/Users/task_177868336396247/croot/pydantic_1778683904394/work
+pydantic-extra-types==2.11.1
+pydantic-settings==2.15.0
+pydantic_core @ file:///C:/Users/task_177867690279927/croot/pydantic-core_1778677025572/work
+Pygments==2.21.0
+PyMySQL==1.2.0
+python-dotenv @ file:///C:/Users/task_FrTtgpFvTv-SL_0/croot/python-dotenv_1786023511806/work
+python-multipart==0.0.32
+PyYAML==6.0.3
+rich==15.0.0
+rich-toolkit==0.20.4
+rignore==0.8.1
+sentry-sdk==2.68.1
+setuptools==83.0.0
+shellingham @ file:///C:/miniconda3/conda-bld/shellingham_1761912225695/work
+SQLAlchemy @ file:///C:/Users/task_O1_owy5STSmW3_0/croot/sqlalchemy_1783083740806/work
+sqlmodel @ file:///C:/Users/task_ZgF6qtBPTS-P__0/croot/sqlmodel_1785400194425/work
+starlette==1.6.0
+typer==0.27.2
+typing-inspection @ file:///C:/Users/task_178653434089612/croot/typing-inspection_1786534514808/work
+typing_extensions @ file:///C:/Users/task_fy7J-zTYSKin8_0/croot/typing_extensions_1784101044383/work
+urllib3==2.7.0
+uvicorn==0.52.4
+watchfiles==1.2.0
+websockets==17.1
+wheel==0.47.0
