@@ -1,6 +1,4 @@
-.reparada
 .env
-.gitignore
-README.md
-package.json
-estructura
+.idea/
+.vscode/
+__pycache__/

@@ -1,0 +1,383 @@
+{
+  "name": "sqlmodel",
+  "version": "0.0.39",
+  "build": "py312haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "subdir": "win-64",
+  "fn": "sqlmodel-0.0.39-py312haa95532_0.conda",
+  "md5": "62217d576f15e01e5bcca02c0456bb5a",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/sqlmodel-0.0.39-py312haa95532_0.conda",
+  "sha256": "71c571be394fefa216190cc0a6ee8d9e01b77d2f34953273c288f9179563ad10",
+  "depends": [
+    "pydantic >=2.11.0",
+    "python >=3.12,<3.13.0a0",
+    "sqlalchemy >=2.0.14,<2.1.0",
+    "typing_extensions >=4.5.0"
+  ],
+  "constrains": [],
+  "license": "MIT",
+  "timestamp": 1785400236000,
+  "size": 102105,
+  "requested_spec": "sqlmodel",
+  "package_tarball_full_path": "C:\\Users\\asus\\anaconda3\\pkgs\\sqlmodel-0.0.39-py312haa95532_0.conda",
+  "extracted_package_dir": "C:\\Users\\asus\\anaconda3\\pkgs\\sqlmodel-0.0.39-py312haa95532_0",
+  "files": [
+    "Lib/site-packages/sqlmodel-0.0.39.dist-info/INSTALLER",
+    "Lib/site-packages/sqlmodel-0.0.39.dist-info/METADATA",
+    "Lib/site-packages/sqlmodel-0.0.39.dist-info/RECORD",
+    "Lib/site-packages/sqlmodel-0.0.39.dist-info/REQUESTED",
+    "Lib/site-packages/sqlmodel-0.0.39.dist-info/WHEEL",
+    "Lib/site-packages/sqlmodel-0.0.39.dist-info/direct_url.json",
+    "Lib/site-packages/sqlmodel-0.0.39.dist-info/entry_points.txt",
+    "Lib/site-packages/sqlmodel-0.0.39.dist-info/licenses/LICENSE",
+    "Lib/site-packages/sqlmodel/.agents/skills/sqlmodel/SKILL.md",
+    "Lib/site-packages/sqlmodel/__init__.py",
+    "Lib/site-packages/sqlmodel/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/sqlmodel/__pycache__/_compat.cpython-312.pyc",
+    "Lib/site-packages/sqlmodel/__pycache__/default.cpython-312.pyc",
+    "Lib/site-packages/sqlmodel/__pycache__/main.cpython-312.pyc",
+    "Lib/site-packages/sqlmodel/_compat.py",
+    "Lib/site-packages/sqlmodel/default.py",
+    "Lib/site-packages/sqlmodel/ext/__init__.py",
+    "Lib/site-packages/sqlmodel/ext/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/sqlmodel/ext/asyncio/__init__.py",
+    "Lib/site-packages/sqlmodel/ext/asyncio/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/sqlmodel/ext/asyncio/__pycache__/session.cpython-312.pyc",
+    "Lib/site-packages/sqlmodel/ext/asyncio/session.py",
+    "Lib/site-packages/sqlmodel/main.py",
+    "Lib/site-packages/sqlmodel/orm/__init__.py",
+    "Lib/site-packages/sqlmodel/orm/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/sqlmodel/orm/__pycache__/session.cpython-312.pyc",
+    "Lib/site-packages/sqlmodel/orm/session.py",
+    "Lib/site-packages/sqlmodel/pool/__init__.py",
+    "Lib/site-packages/sqlmodel/pool/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/sqlmodel/py.typed",
+    "Lib/site-packages/sqlmodel/sql/__init__.py",
+    "Lib/site-packages/sqlmodel/sql/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/sqlmodel/sql/__pycache__/_expression_select_cls.cpython-312.pyc",
+    "Lib/site-packages/sqlmodel/sql/__pycache__/_expression_select_gen.cpython-312.pyc",
+    "Lib/site-packages/sqlmodel/sql/__pycache__/base.cpython-312.pyc",
+    "Lib/site-packages/sqlmodel/sql/__pycache__/expression.cpython-312.pyc",
+    "Lib/site-packages/sqlmodel/sql/__pycache__/sqltypes.cpython-312.pyc",
+    "Lib/site-packages/sqlmodel/sql/_expression_select_cls.py",
+    "Lib/site-packages/sqlmodel/sql/_expression_select_gen.py",
+    "Lib/site-packages/sqlmodel/sql/_expression_select_gen.py.jinja2",
+    "Lib/site-packages/sqlmodel/sql/base.py",
+    "Lib/site-packages/sqlmodel/sql/expression.py",
+    "Lib/site-packages/sqlmodel/sql/sqltypes.py"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "Lib/site-packages/sqlmodel-0.0.39.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5,
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8"
+      },
+      {
+        "_path": "Lib/site-packages/sqlmodel-0.0.39.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "1f1029c45942a0a445d8c652049e9927e5375d061887d278ec4986dbbbecdd07",
+        "size_in_bytes": 9398,
+        "sha256_in_prefix": "1f1029c45942a0a445d8c652049e9927e5375d061887d278ec4986dbbbecdd07"
+      },
+      {
+        "_path": "Lib/site-packages/sqlmodel-0.0.39.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "3157c8520e6475fc90d23b0e504cdecb10ab6079f04852fbc53393d2815605de",
+        "size_in_bytes": 3147,
+        "sha256_in_prefix": "3157c8520e6475fc90d23b0e504cdecb10ab6079f04852fbc53393d2815605de"
+      },
+      {
+        "_path": "Lib/site-packages/sqlmodel-0.0.39.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "Lib/site-packages/sqlmodel-0.0.39.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "b6c52ffedec10de25e447692adccdb19eb8af93b43a46b168bf25fa730f6e792",
+        "size_in_bytes": 90,
+        "sha256_in_prefix": "b6c52ffedec10de25e447692adccdb19eb8af93b43a46b168bf25fa730f6e792"
+      },
+      {
+        "_path": "Lib/site-packages/sqlmodel-0.0.39.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "418d6648519e508d7432235d96b5da237ccbc8ba7cc7d40b74a0c045725d6bad",
+        "size_in_bytes": 98,
+        "sha256_in_prefix": "418d6648519e508d7432235d96b5da237ccbc8ba7cc7d40b74a0c045725d6bad"
+      },
+      {
+        "_path": "Lib/site-packages/sqlmodel-0.0.39.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "e8e62005c2f21425207aa2e09ef332389c4f096ce0cbbb1ee2b2cf2ad3689ccb",
+        "size_in_bytes": 34,
+        "sha256_in_prefix": "e8e62005c2f21425207aa2e09ef332389c4f096ce0cbbb1ee2b2cf2ad3689ccb"
+      },
+      {
+        "_path": "Lib/site-packages/sqlmodel-0.0.39.dist-info/licenses/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "acc1688e23a6c281e707dcb60118f45765c9fc4330b5fa775fe25a982b9f7df5",
+        "size_in_bytes": 1086,
+        "sha256_in_prefix": "acc1688e23a6c281e707dcb60118f45765c9fc4330b5fa775fe25a982b9f7df5"
+      },
+      {
+        "_path": "Lib/site-packages/sqlmodel/.agents/skills/sqlmodel/SKILL.md",
+        "path_type": "hardlink",
+        "sha256": "dd1911407275d717b1fb2dcd1f015db5fc942e56f0e161d8c4e891f2aab68ca8",
+        "size_in_bytes": 6378,
+        "sha256_in_prefix": "dd1911407275d717b1fb2dcd1f015db5fc942e56f0e161d8c4e891f2aab68ca8"
+      },
+      {
+        "_path": "Lib/site-packages/sqlmodel/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b026297d3997bce5296efb2cee7a4630a245340c6b82efd17ca895b4334c7c6a",
+        "size_in_bytes": 6767,
+        "sha256_in_prefix": "b026297d3997bce5296efb2cee7a4630a245340c6b82efd17ca895b4334c7c6a"
+      },
+      {
+        "_path": "Lib/site-packages/sqlmodel/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "589b34f956d6817b007e173dd5e18cc4e6b3d80fae38d694c4fd5070e8b478a8",
+        "size_in_bytes": 4650,
+        "sha256_in_prefix": "589b34f956d6817b007e173dd5e18cc4e6b3d80fae38d694c4fd5070e8b478a8"
+      },
+      {
+        "_path": "Lib/site-packages/sqlmodel/__pycache__/_compat.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "aa2a69d3dce26c9e131fa13d94e44f37bed6c0e3a42eb95cee8deb2627f2d9c1",
+        "size_in_bytes": 13439,
+        "sha256_in_prefix": "aa2a69d3dce26c9e131fa13d94e44f37bed6c0e3a42eb95cee8deb2627f2d9c1"
+      },
+      {
+        "_path": "Lib/site-packages/sqlmodel/__pycache__/default.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "8b32de75d3110db3273d581c77d284e8caab5a3225bbfb454772694de08828e8",
+        "size_in_bytes": 1686,
+        "sha256_in_prefix": "8b32de75d3110db3273d581c77d284e8caab5a3225bbfb454772694de08828e8"
+      },
+      {
+        "_path": "Lib/site-packages/sqlmodel/__pycache__/main.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "a1c7a404ae887c12f48d2563664150bd6021f33fb338c53ca43c164f9057fab5",
+        "size_in_bytes": 35531,
+        "sha256_in_prefix": "a1c7a404ae887c12f48d2563664150bd6021f33fb338c53ca43c164f9057fab5"
+      },
+      {
+        "_path": "Lib/site-packages/sqlmodel/_compat.py",
+        "path_type": "hardlink",
+        "sha256": "288270728ac5e5f20682a51eecee233cbe04c176657dc091b39deefa69e7dcbf",
+        "size_in_bytes": 11910,
+        "sha256_in_prefix": "288270728ac5e5f20682a51eecee233cbe04c176657dc091b39deefa69e7dcbf"
+      },
+      {
+        "_path": "Lib/site-packages/sqlmodel/default.py",
+        "path_type": "hardlink",
+        "sha256": "da7dfe0dd02a6d16fdbbdcb093789c1c6ea4ff7674b55a007655b56ae20e01e7",
+        "size_in_bytes": 850,
+        "sha256_in_prefix": "da7dfe0dd02a6d16fdbbdcb093789c1c6ea4ff7674b55a007655b56ae20e01e7"
+      },
+      {
+        "_path": "Lib/site-packages/sqlmodel/ext/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "Lib/site-packages/sqlmodel/ext/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "042122b91de0d06404a400a1b919a01c2d04437cc32fbee10b3a96c4e381a81e",
+        "size_in_bytes": 139,
+        "sha256_in_prefix": "042122b91de0d06404a400a1b919a01c2d04437cc32fbee10b3a96c4e381a81e"
+      },
+      {
+        "_path": "Lib/site-packages/sqlmodel/ext/asyncio/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "Lib/site-packages/sqlmodel/ext/asyncio/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "b2c359ee48914c95f5e2f1317121308d82864ddd676fb0797677ce28ef8851a5",
+        "size_in_bytes": 147,
+        "sha256_in_prefix": "b2c359ee48914c95f5e2f1317121308d82864ddd676fb0797677ce28ef8851a5"
+      },
+      {
+        "_path": "Lib/site-packages/sqlmodel/ext/asyncio/__pycache__/session.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "12d81c632e9783372c1c6c7f66f65f026f9e290996fb1a5b82d6219d91461260",
+        "size_in_bytes": 5701,
+        "sha256_in_prefix": "12d81c632e9783372c1c6c7f66f65f026f9e290996fb1a5b82d6219d91461260"
+      },
+      {
+        "_path": "Lib/site-packages/sqlmodel/ext/asyncio/session.py",
+        "path_type": "hardlink",
+        "sha256": "f89246086d9dfa11fbe3983914b57cd302ae0b8cc9d70fe64bdb3183696174a2",
+        "size_in_bytes": 5442,
+        "sha256_in_prefix": "f89246086d9dfa11fbe3983914b57cd302ae0b8cc9d70fe64bdb3183696174a2"
+      },
+      {
+        "_path": "Lib/site-packages/sqlmodel/main.py",
+        "path_type": "hardlink",
+        "sha256": "c133d86c38642e27fdf755b04c042c41faa677e9de1894d2b314a31ed5f7d395",
+        "size_in_bytes": 38052,
+        "sha256_in_prefix": "c133d86c38642e27fdf755b04c042c41faa677e9de1894d2b314a31ed5f7d395"
+      },
+      {
+        "_path": "Lib/site-packages/sqlmodel/orm/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "Lib/site-packages/sqlmodel/orm/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "a53be87c83125dcccbebd46568defd0d69e41510de504b91424c2de7e74bd390",
+        "size_in_bytes": 139,
+        "sha256_in_prefix": "a53be87c83125dcccbebd46568defd0d69e41510de504b91424c2de7e74bd390"
+      },
+      {
+        "_path": "Lib/site-packages/sqlmodel/orm/__pycache__/session.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "6a2ece8cc48e652cd3216473dc94b67e48c99fb2174cf42936618a42b81dba6d",
+        "size_in_bytes": 5519,
+        "sha256_in_prefix": "6a2ece8cc48e652cd3216473dc94b67e48c99fb2174cf42936618a42b81dba6d"
+      },
+      {
+        "_path": "Lib/site-packages/sqlmodel/orm/session.py",
+        "path_type": "hardlink",
+        "sha256": "5148132d004dc3a4a02299ad0ba5ddc74593853647303236d93400cb5c5c8686",
+        "size_in_bytes": 5617,
+        "sha256_in_prefix": "5148132d004dc3a4a02299ad0ba5ddc74593853647303236d93400cb5c5c8686"
+      },
+      {
+        "_path": "Lib/site-packages/sqlmodel/pool/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c6f53d93f096d3d6cb40be84b9b602d609e3d5591eb7828d1edf914ecee91e27",
+        "size_in_bytes": 67,
+        "sha256_in_prefix": "c6f53d93f096d3d6cb40be84b9b602d609e3d5591eb7828d1edf914ecee91e27"
+      },
+      {
+        "_path": "Lib/site-packages/sqlmodel/pool/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "266eb47853c0ac8f3943085f749a384011ddcb478becb0a2dc1d01e282c412de",
+        "size_in_bytes": 193,
+        "sha256_in_prefix": "266eb47853c0ac8f3943085f749a384011ddcb478becb0a2dc1d01e282c412de"
+      },
+      {
+        "_path": "Lib/site-packages/sqlmodel/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "Lib/site-packages/sqlmodel/sql/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "Lib/site-packages/sqlmodel/sql/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "9f053d2f8dbb91fcffe71efb9946565ff80977337533ae2b4c8489fc7e57a6b9",
+        "size_in_bytes": 139,
+        "sha256_in_prefix": "9f053d2f8dbb91fcffe71efb9946565ff80977337533ae2b4c8489fc7e57a6b9"
+      },
+      {
+        "_path": "Lib/site-packages/sqlmodel/sql/__pycache__/_expression_select_cls.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "43877607132e9a4151fc94fad4638ef6fd162fa6f90c87eec388b34ac01d6ba4",
+        "size_in_bytes": 1818,
+        "sha256_in_prefix": "43877607132e9a4151fc94fad4638ef6fd162fa6f90c87eec388b34ac01d6ba4"
+      },
+      {
+        "_path": "Lib/site-packages/sqlmodel/sql/__pycache__/_expression_select_gen.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "874553fcff18e7dd462b5d90d9e9509ac355226905f42f9ac6510b8f64598013",
+        "size_in_bytes": 8997,
+        "sha256_in_prefix": "874553fcff18e7dd462b5d90d9e9509ac355226905f42f9ac6510b8f64598013"
+      },
+      {
+        "_path": "Lib/site-packages/sqlmodel/sql/__pycache__/base.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "56dfa984777bdcb6bd68d77c8caa5b22af0ca7b50940ad03598ed11d1071b564",
+        "size_in_bytes": 477,
+        "sha256_in_prefix": "56dfa984777bdcb6bd68d77c8caa5b22af0ca7b50940ad03598ed11d1071b564"
+      },
+      {
+        "_path": "Lib/site-packages/sqlmodel/sql/__pycache__/expression.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "e02d9a1da157ca0b404cf74f15c5dd70d1daf0bf8e5a3a35cee8208c17b379a7",
+        "size_in_bytes": 8311,
+        "sha256_in_prefix": "e02d9a1da157ca0b404cf74f15c5dd70d1daf0bf8e5a3a35cee8208c17b379a7"
+      },
+      {
+        "_path": "Lib/site-packages/sqlmodel/sql/__pycache__/sqltypes.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "31391eb72e8059590603fcc557415b003b86dbeb4e41c53c10cc52d4882c12d4",
+        "size_in_bytes": 1296,
+        "sha256_in_prefix": "31391eb72e8059590603fcc557415b003b86dbeb4e41c53c10cc52d4882c12d4"
+      },
+      {
+        "_path": "Lib/site-packages/sqlmodel/sql/_expression_select_cls.py",
+        "path_type": "hardlink",
+        "sha256": "9a21a3ff31706b64de957fd6b033e089e51d42fc52c6937f41674a007769f485",
+        "size_in_bytes": 1534,
+        "sha256_in_prefix": "9a21a3ff31706b64de957fd6b033e089e51d42fc52c6937f41674a007769f485"
+      },
+      {
+        "_path": "Lib/site-packages/sqlmodel/sql/_expression_select_gen.py",
+        "path_type": "hardlink",
+        "sha256": "31ebaaee1003b5035abb23c04c8e82e95bcde85d533c005fbe1dc8bb4add43a8",
+        "size_in_bytes": 6391,
+        "sha256_in_prefix": "31ebaaee1003b5035abb23c04c8e82e95bcde85d533c005fbe1dc8bb4add43a8"
+      },
+      {
+        "_path": "Lib/site-packages/sqlmodel/sql/_expression_select_gen.py.jinja2",
+        "path_type": "hardlink",
+        "sha256": "393c36feb74f79f09ea602ac3d0a20c4021254546e6f79e90a23517cf10ea551",
+        "size_in_bytes": 1421,
+        "sha256_in_prefix": "393c36feb74f79f09ea602ac3d0a20c4021254546e6f79e90a23517cf10ea551"
+      },
+      {
+        "_path": "Lib/site-packages/sqlmodel/sql/base.py",
+        "path_type": "hardlink",
+        "sha256": "5597ae14b4d686e0d2aff85e98b6d60bc7c9f267c651e795d86643e6898b4d93",
+        "size_in_bytes": 170,
+        "sha256_in_prefix": "5597ae14b4d686e0d2aff85e98b6d60bc7c9f267c651e795d86643e6898b4d93"
+      },
+      {
+        "_path": "Lib/site-packages/sqlmodel/sql/expression.py",
+        "path_type": "hardlink",
+        "sha256": "efec145137d006159311ef554fb9c04d688565872a37e33edc927204c9538596",
+        "size_in_bytes": 6147,
+        "sha256_in_prefix": "efec145137d006159311ef554fb9c04d688565872a37e33edc927204c9538596"
+      },
+      {
+        "_path": "Lib/site-packages/sqlmodel/sql/sqltypes.py",
+        "path_type": "hardlink",
+        "sha256": "fcf1f5e1831030a599a3c89c04f4330ec8fc3b5413c9897dfe1381883abcf1a5",
+        "size_in_bytes": 542,
+        "sha256_in_prefix": "fcf1f5e1831030a599a3c89c04f4330ec8fc3b5413c9897dfe1381883abcf1a5"
+      }
+    ]
+  },
+  "link": {
+    "source": "C:\\Users\\asus\\anaconda3\\pkgs\\sqlmodel-0.0.39-py312haa95532_0",
+    "type": 1
+  },
+  "requested_specs": [
+    "sqlmodel"
+  ]
+}

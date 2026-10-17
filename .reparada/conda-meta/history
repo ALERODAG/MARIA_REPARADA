@@ -1,0 +1,114 @@
+==> 2026-09-04 10:56:01 <==
+# cmd: C:\Users\asus\anaconda3\Scripts\conda-script.py create --prefix ./.reparada python=3.12 -y
+# conda version: 26.5.3
++defaults/noarch::pip-26.2.1-pyhc872135_0
++defaults/noarch::tzdata-2026c-he532380_0
++defaults/win-64::bzip2-1.0.8-h2bbff1b_6
++defaults/win-64::ca-certificates-2026.8.13-haa95532_0
++defaults/win-64::libexpat-2.8.4-hd7fb8db_0
++defaults/win-64::libffi-3.4.8-h42d73b9_3
++defaults/win-64::libzlib-1.3.2-h1c6eee0_0
++defaults/win-64::openssl-3.5.8-hbb43b14_0
++defaults/win-64::packaging-26.3-py312haa95532_0
++defaults/win-64::python-3.12.14-hd7b1df3_0
++defaults/win-64::setuptools-83.0.0-py312haa95532_0
++defaults/win-64::sqlite-3.53.2-hee5a0db_0
++defaults/win-64::tk-8.6.15-hf199647_0
++defaults/win-64::ucrt-10.0.22621.0-haa95532_0
++defaults/win-64::vc-14.3-h2df5915_12
++defaults/win-64::vc14_runtime-14.44.35208-h4927774_12
++defaults/win-64::vs2015_runtime-14.44.35208-ha6b5a95_12
++defaults/win-64::wheel-0.47.0-py312haa95532_0
++defaults/win-64::xz-5.8.2-h53af0af_0
++defaults/win-64::zlib-1.3.2-h1c6eee0_0
+# update specs: ['python=3.12']
+==> 2026-09-04 11:04:09 <==
+# cmd: C:\Users\asus\anaconda3\Scripts\conda-script.py install fastapi[standard] python-dotenv sqlmodel
+# conda version: 26.5.3
++defaults/win-64::annotated-doc-0.0.5-py312haa95532_0
++defaults/win-64::annotated-types-0.7.0-py312haa95532_0
++defaults/win-64::anyio-4.12.1-py312haa95532_0
++defaults/win-64::certifi-2026.7.22-py312haa95532_0
++defaults/win-64::click-8.5.0-py312haa95532_0
++defaults/win-64::colorama-0.4.6-py312haa95532_0
++defaults/win-64::dnspython-2.8.0-py312haa95532_0
++defaults/win-64::email-validator-2.3.0-py312haa95532_0
++defaults/win-64::fastapi-0.138.0-py312haa95532_0
++defaults/win-64::fastapi-cli-0.0.32-py312haa95532_0
++defaults/win-64::fastapi-core-0.138.0-py312haa95532_0
++defaults/win-64::fastar-0.11.0-py312h70ad099_0
++defaults/win-64::greenlet-3.3.2-py312hd7fb8db_0
++defaults/win-64::h11-0.16.0-py312haa95532_1
++defaults/win-64::httpcore-1.0.9-py312haa95532_0
++defaults/win-64::httptools-0.8.0-py312h1c6eee0_0
++defaults/win-64::httpx-0.28.1-py312haa95532_1
++defaults/win-64::idna-3.18-py312haa95532_0
++defaults/win-64::jinja2-3.1.6-py312haa95532_1
++defaults/win-64::lz4-c-1.9.4-h1c6eee0_5
++defaults/win-64::markdown-it-py-4.2.0-py312haa95532_0
++defaults/win-64::markupsafe-3.0.3-py312h1c6eee0_0
++defaults/win-64::mdurl-0.1.2-py312haa95532_0
++defaults/win-64::pydantic-2.13.4-py312haa95532_0
++defaults/win-64::pydantic-core-2.46.4-py312h51239a8_0
++defaults/win-64::pydantic-extra-types-2.11.0-py312haa95532_0
++defaults/win-64::pydantic-settings-2.14.2-py312haa95532_0
++defaults/win-64::pygments-2.20.0-py312haa95532_0
++defaults/win-64::python-dotenv-1.2.2-py312haa95532_0
++defaults/win-64::python-multipart-0.0.32-py312haa95532_0
++defaults/win-64::pyyaml-6.0.3-py312hb9a58be_0
++defaults/win-64::rich-15.0.0-py312haa95532_0
++defaults/win-64::rich-toolkit-0.20.3-py312haa95532_0
++defaults/win-64::shellingham-1.5.4-py312haa95532_0
++defaults/win-64::sqlalchemy-2.0.51-py312hee5a0db_0
++defaults/win-64::sqlmodel-0.0.39-py312haa95532_0
++defaults/win-64::starlette-1.3.1-py312haa95532_0
++defaults/win-64::typer-0.25.1-py312haa95532_0
++defaults/win-64::typing-extensions-4.16.0-py312haa95532_0
++defaults/win-64::typing-inspection-0.4.3-py312haa95532_0
++defaults/win-64::typing_extensions-4.16.0-py312haa95532_0
++defaults/win-64::uvicorn-0.52.4-py312haa95532_0
++defaults/win-64::uvicorn-standard-0.52.4-py312haa95532_0
++defaults/win-64::watchfiles-1.2.0-py312h51239a8_0
++defaults/win-64::websockets-16.0-py312h1c6eee0_0
++defaults/win-64::yaml-0.2.5-h6b1b717_1
++defaults/win-64::zstd-1.5.7-h56299aa_0
+# update specs: ['sqlmodel', 'fastapi', 'python-dotenv']
+==> 2026-09-04 11:10:48 <==
+# cmd: C:\Users\asus\anaconda3\Scripts\conda-script.py remove fastapi fastapi-cli uvicorn -y
+# conda version: 26.5.3
+-defaults/win-64::annotated-doc-0.0.5-py312haa95532_0
+-defaults/win-64::anyio-4.12.1-py312haa95532_0
+-defaults/win-64::click-8.5.0-py312haa95532_0
+-defaults/win-64::colorama-0.4.6-py312haa95532_0
+-defaults/win-64::dnspython-2.8.0-py312haa95532_0
+-defaults/win-64::email-validator-2.3.0-py312haa95532_0
+-defaults/win-64::fastapi-0.138.0-py312haa95532_0
+-defaults/win-64::fastapi-cli-0.0.32-py312haa95532_0
+-defaults/win-64::fastapi-core-0.138.0-py312haa95532_0
+-defaults/win-64::fastar-0.11.0-py312h70ad099_0
+-defaults/win-64::h11-0.16.0-py312haa95532_1
+-defaults/win-64::httpcore-1.0.9-py312haa95532_0
+-defaults/win-64::httptools-0.8.0-py312h1c6eee0_0
+-defaults/win-64::httpx-0.28.1-py312haa95532_1
+-defaults/win-64::idna-3.18-py312haa95532_0
+-defaults/win-64::jinja2-3.1.6-py312haa95532_1
+-defaults/win-64::lz4-c-1.9.4-h1c6eee0_5
+-defaults/win-64::markdown-it-py-4.2.0-py312haa95532_0
+-defaults/win-64::markupsafe-3.0.3-py312h1c6eee0_0
+-defaults/win-64::mdurl-0.1.2-py312haa95532_0
+-defaults/win-64::pydantic-extra-types-2.11.0-py312haa95532_0
+-defaults/win-64::pydantic-settings-2.14.2-py312haa95532_0
+-defaults/win-64::pygments-2.20.0-py312haa95532_0
+-defaults/win-64::python-multipart-0.0.32-py312haa95532_0
+-defaults/win-64::pyyaml-6.0.3-py312hb9a58be_0
+-defaults/win-64::rich-15.0.0-py312haa95532_0
+-defaults/win-64::rich-toolkit-0.20.3-py312haa95532_0
+-defaults/win-64::starlette-1.3.1-py312haa95532_0
+-defaults/win-64::typer-0.25.1-py312haa95532_0
+-defaults/win-64::uvicorn-0.52.4-py312haa95532_0
+-defaults/win-64::uvicorn-standard-0.52.4-py312haa95532_0
+-defaults/win-64::watchfiles-1.2.0-py312h51239a8_0
+-defaults/win-64::websockets-16.0-py312h1c6eee0_0
+-defaults/win-64::yaml-0.2.5-h6b1b717_1
+-defaults/win-64::zstd-1.5.7-h56299aa_0
+# remove specs: ['fastapi', 'fastapi-cli', 'uvicorn']

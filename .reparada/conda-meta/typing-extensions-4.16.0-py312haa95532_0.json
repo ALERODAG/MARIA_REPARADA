@@ -1,0 +1,32 @@
+{
+  "name": "typing-extensions",
+  "version": "4.16.0",
+  "build": "py312haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "subdir": "win-64",
+  "fn": "typing-extensions-4.16.0-py312haa95532_0.conda",
+  "md5": "31e77dc707334c1ffd6a61ca33ae4d38",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/typing-extensions-4.16.0-py312haa95532_0.conda",
+  "sha256": "50abcfcf0088e0f394748942ad346691440d379fa25f6ea115d5a1506857127e",
+  "depends": [
+    "python >=3.12,<3.13.0a0",
+    "typing_extensions 4.16.0 py312haa95532_0"
+  ],
+  "constrains": [],
+  "license": "PSF-2.0",
+  "timestamp": 1784101092000,
+  "size": 9422,
+  "_requested_specs": [],
+  "package_tarball_full_path": "C:\\Users\\asus\\anaconda3\\pkgs\\typing-extensions-4.16.0-py312haa95532_0.conda",
+  "extracted_package_dir": "C:\\Users\\asus\\anaconda3\\pkgs\\typing-extensions-4.16.0-py312haa95532_0",
+  "files": [],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": []
+  },
+  "link": {
+    "source": "C:\\Users\\asus\\anaconda3\\pkgs\\typing-extensions-4.16.0-py312haa95532_0",
+    "type": 1
+  }
+}

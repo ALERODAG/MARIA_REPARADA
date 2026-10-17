@@ -1,0 +1,1036 @@
+{
+  "name": "greenlet",
+  "version": "3.3.2",
+  "build": "py312hd7fb8db_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "subdir": "win-64",
+  "fn": "greenlet-3.3.2-py312hd7fb8db_0.conda",
+  "md5": "aeb1479650936e3c3de788cadd4f40c8",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/greenlet-3.3.2-py312hd7fb8db_0.conda",
+  "sha256": "907449d83d8728f9437053e5b39ecbf24b5fbc96988d5ff40a6e91d3191dc59a",
+  "depends": [
+    "python >=3.12,<3.13.0a0",
+    "ucrt >=10.0.20348.0",
+    "vc >=14.3,<15",
+    "vc14_runtime >=14.44.35208"
+  ],
+  "constrains": [],
+  "license": "MIT",
+  "timestamp": 1774949642000,
+  "size": 238294,
+  "_requested_specs": [],
+  "package_tarball_full_path": "C:\\Users\\asus\\anaconda3\\pkgs\\greenlet-3.3.2-py312hd7fb8db_0.conda",
+  "extracted_package_dir": "C:\\Users\\asus\\anaconda3\\pkgs\\greenlet-3.3.2-py312hd7fb8db_0",
+  "files": [
+    "Lib/site-packages/greenlet-3.3.2.dist-info/INSTALLER",
+    "Lib/site-packages/greenlet-3.3.2.dist-info/METADATA",
+    "Lib/site-packages/greenlet-3.3.2.dist-info/RECORD",
+    "Lib/site-packages/greenlet-3.3.2.dist-info/REQUESTED",
+    "Lib/site-packages/greenlet-3.3.2.dist-info/WHEEL",
+    "Lib/site-packages/greenlet-3.3.2.dist-info/direct_url.json",
+    "Lib/site-packages/greenlet-3.3.2.dist-info/licenses/LICENSE",
+    "Lib/site-packages/greenlet-3.3.2.dist-info/licenses/LICENSE.PSF",
+    "Lib/site-packages/greenlet-3.3.2.dist-info/top_level.txt",
+    "Lib/site-packages/greenlet/CObjects.cpp",
+    "Lib/site-packages/greenlet/PyGreenlet.cpp",
+    "Lib/site-packages/greenlet/PyGreenlet.hpp",
+    "Lib/site-packages/greenlet/PyGreenletUnswitchable.cpp",
+    "Lib/site-packages/greenlet/PyModule.cpp",
+    "Lib/site-packages/greenlet/TBrokenGreenlet.cpp",
+    "Lib/site-packages/greenlet/TExceptionState.cpp",
+    "Lib/site-packages/greenlet/TGreenlet.cpp",
+    "Lib/site-packages/greenlet/TGreenlet.hpp",
+    "Lib/site-packages/greenlet/TGreenletGlobals.cpp",
+    "Lib/site-packages/greenlet/TMainGreenlet.cpp",
+    "Lib/site-packages/greenlet/TPythonState.cpp",
+    "Lib/site-packages/greenlet/TStackState.cpp",
+    "Lib/site-packages/greenlet/TThreadState.hpp",
+    "Lib/site-packages/greenlet/TThreadStateCreator.hpp",
+    "Lib/site-packages/greenlet/TThreadStateDestroy.cpp",
+    "Lib/site-packages/greenlet/TUserGreenlet.cpp",
+    "Lib/site-packages/greenlet/__init__.py",
+    "Lib/site-packages/greenlet/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/greenlet/_greenlet.cp312-win_amd64.pyd",
+    "Lib/site-packages/greenlet/greenlet.cpp",
+    "Lib/site-packages/greenlet/greenlet.h",
+    "Lib/site-packages/greenlet/greenlet_allocator.hpp",
+    "Lib/site-packages/greenlet/greenlet_compiler_compat.hpp",
+    "Lib/site-packages/greenlet/greenlet_cpython_compat.hpp",
+    "Lib/site-packages/greenlet/greenlet_exceptions.hpp",
+    "Lib/site-packages/greenlet/greenlet_internal.hpp",
+    "Lib/site-packages/greenlet/greenlet_msvc_compat.hpp",
+    "Lib/site-packages/greenlet/greenlet_refs.hpp",
+    "Lib/site-packages/greenlet/greenlet_slp_switch.hpp",
+    "Lib/site-packages/greenlet/greenlet_thread_support.hpp",
+    "Lib/site-packages/greenlet/platform/__init__.py",
+    "Lib/site-packages/greenlet/platform/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/greenlet/platform/setup_switch_x64_masm.cmd",
+    "Lib/site-packages/greenlet/platform/switch_aarch64_gcc.h",
+    "Lib/site-packages/greenlet/platform/switch_alpha_unix.h",
+    "Lib/site-packages/greenlet/platform/switch_amd64_unix.h",
+    "Lib/site-packages/greenlet/platform/switch_arm32_gcc.h",
+    "Lib/site-packages/greenlet/platform/switch_arm32_ios.h",
+    "Lib/site-packages/greenlet/platform/switch_arm64_masm.asm",
+    "Lib/site-packages/greenlet/platform/switch_arm64_masm.obj",
+    "Lib/site-packages/greenlet/platform/switch_arm64_msvc.h",
+    "Lib/site-packages/greenlet/platform/switch_csky_gcc.h",
+    "Lib/site-packages/greenlet/platform/switch_loongarch64_linux.h",
+    "Lib/site-packages/greenlet/platform/switch_m68k_gcc.h",
+    "Lib/site-packages/greenlet/platform/switch_mips_unix.h",
+    "Lib/site-packages/greenlet/platform/switch_ppc64_aix.h",
+    "Lib/site-packages/greenlet/platform/switch_ppc64_linux.h",
+    "Lib/site-packages/greenlet/platform/switch_ppc_aix.h",
+    "Lib/site-packages/greenlet/platform/switch_ppc_linux.h",
+    "Lib/site-packages/greenlet/platform/switch_ppc_macosx.h",
+    "Lib/site-packages/greenlet/platform/switch_ppc_unix.h",
+    "Lib/site-packages/greenlet/platform/switch_riscv_unix.h",
+    "Lib/site-packages/greenlet/platform/switch_s390_unix.h",
+    "Lib/site-packages/greenlet/platform/switch_sh_gcc.h",
+    "Lib/site-packages/greenlet/platform/switch_sparc_sun_gcc.h",
+    "Lib/site-packages/greenlet/platform/switch_x32_unix.h",
+    "Lib/site-packages/greenlet/platform/switch_x64_masm.asm",
+    "Lib/site-packages/greenlet/platform/switch_x64_masm.obj",
+    "Lib/site-packages/greenlet/platform/switch_x64_msvc.h",
+    "Lib/site-packages/greenlet/platform/switch_x86_msvc.h",
+    "Lib/site-packages/greenlet/platform/switch_x86_unix.h",
+    "Lib/site-packages/greenlet/slp_platformselect.h",
+    "Lib/site-packages/greenlet/tests/__init__.py",
+    "Lib/site-packages/greenlet/tests/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/greenlet/tests/__pycache__/fail_clearing_run_switches.cpython-312.pyc",
+    "Lib/site-packages/greenlet/tests/__pycache__/fail_cpp_exception.cpython-312.pyc",
+    "Lib/site-packages/greenlet/tests/__pycache__/fail_initialstub_already_started.cpython-312.pyc",
+    "Lib/site-packages/greenlet/tests/__pycache__/fail_slp_switch.cpython-312.pyc",
+    "Lib/site-packages/greenlet/tests/__pycache__/fail_switch_three_greenlets.cpython-312.pyc",
+    "Lib/site-packages/greenlet/tests/__pycache__/fail_switch_three_greenlets2.cpython-312.pyc",
+    "Lib/site-packages/greenlet/tests/__pycache__/fail_switch_two_greenlets.cpython-312.pyc",
+    "Lib/site-packages/greenlet/tests/__pycache__/leakcheck.cpython-312.pyc",
+    "Lib/site-packages/greenlet/tests/__pycache__/test_contextvars.cpython-312.pyc",
+    "Lib/site-packages/greenlet/tests/__pycache__/test_cpp.cpython-312.pyc",
+    "Lib/site-packages/greenlet/tests/__pycache__/test_extension_interface.cpython-312.pyc",
+    "Lib/site-packages/greenlet/tests/__pycache__/test_gc.cpython-312.pyc",
+    "Lib/site-packages/greenlet/tests/__pycache__/test_generator.cpython-312.pyc",
+    "Lib/site-packages/greenlet/tests/__pycache__/test_generator_nested.cpython-312.pyc",
+    "Lib/site-packages/greenlet/tests/__pycache__/test_greenlet.cpython-312.pyc",
+    "Lib/site-packages/greenlet/tests/__pycache__/test_greenlet_trash.cpython-312.pyc",
+    "Lib/site-packages/greenlet/tests/__pycache__/test_interpreter_shutdown.cpython-312.pyc",
+    "Lib/site-packages/greenlet/tests/__pycache__/test_leaks.cpython-312.pyc",
+    "Lib/site-packages/greenlet/tests/__pycache__/test_stack_saved.cpython-312.pyc",
+    "Lib/site-packages/greenlet/tests/__pycache__/test_throw.cpython-312.pyc",
+    "Lib/site-packages/greenlet/tests/__pycache__/test_tracing.cpython-312.pyc",
+    "Lib/site-packages/greenlet/tests/__pycache__/test_version.cpython-312.pyc",
+    "Lib/site-packages/greenlet/tests/__pycache__/test_weakref.cpython-312.pyc",
+    "Lib/site-packages/greenlet/tests/_test_extension.c",
+    "Lib/site-packages/greenlet/tests/_test_extension.cp312-win_amd64.pyd",
+    "Lib/site-packages/greenlet/tests/_test_extension_cpp.cp312-win_amd64.pyd",
+    "Lib/site-packages/greenlet/tests/_test_extension_cpp.cpp",
+    "Lib/site-packages/greenlet/tests/fail_clearing_run_switches.py",
+    "Lib/site-packages/greenlet/tests/fail_cpp_exception.py",
+    "Lib/site-packages/greenlet/tests/fail_initialstub_already_started.py",
+    "Lib/site-packages/greenlet/tests/fail_slp_switch.py",
+    "Lib/site-packages/greenlet/tests/fail_switch_three_greenlets.py",
+    "Lib/site-packages/greenlet/tests/fail_switch_three_greenlets2.py",
+    "Lib/site-packages/greenlet/tests/fail_switch_two_greenlets.py",
+    "Lib/site-packages/greenlet/tests/leakcheck.py",
+    "Lib/site-packages/greenlet/tests/test_contextvars.py",
+    "Lib/site-packages/greenlet/tests/test_cpp.py",
+    "Lib/site-packages/greenlet/tests/test_extension_interface.py",
+    "Lib/site-packages/greenlet/tests/test_gc.py",
+    "Lib/site-packages/greenlet/tests/test_generator.py",
+    "Lib/site-packages/greenlet/tests/test_generator_nested.py",
+    "Lib/site-packages/greenlet/tests/test_greenlet.py",
+    "Lib/site-packages/greenlet/tests/test_greenlet_trash.py",
+    "Lib/site-packages/greenlet/tests/test_interpreter_shutdown.py",
+    "Lib/site-packages/greenlet/tests/test_leaks.py",
+    "Lib/site-packages/greenlet/tests/test_stack_saved.py",
+    "Lib/site-packages/greenlet/tests/test_throw.py",
+    "Lib/site-packages/greenlet/tests/test_tracing.py",
+    "Lib/site-packages/greenlet/tests/test_version.py",
+    "Lib/site-packages/greenlet/tests/test_weakref.py",
+    "include/greenlet/greenlet.h"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "Lib/site-packages/greenlet-3.3.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5,
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet-3.3.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "6386ca4d236225f662d6bcfdab3d44445d0440f2fbd0e4193c531045c2469238",
+        "size_in_bytes": 3829,
+        "sha256_in_prefix": "6386ca4d236225f662d6bcfdab3d44445d0440f2fbd0e4193c531045c2469238"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet-3.3.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "22afd70bb826ea081925054146a4775e45f17c494bdb073228b0d72673ed46c2",
+        "size_in_bytes": 10648,
+        "sha256_in_prefix": "22afd70bb826ea081925054146a4775e45f17c494bdb073228b0d72673ed46c2"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet-3.3.2.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet-3.3.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "e122251ab4d611ebd431afbace643d6811dc61ab679c6f5a3876082c82620975",
+        "size_in_bytes": 102,
+        "sha256_in_prefix": "e122251ab4d611ebd431afbace643d6811dc61ab679c6f5a3876082c82620975"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet-3.3.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "d61bf4317409e12925c78018b4d2d67280296eb9d1e60ba334ff33466a6ba585",
+        "size_in_bytes": 98,
+        "sha256_in_prefix": "d61bf4317409e12925c78018b4d2d67280296eb9d1e60ba334ff33466a6ba585"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet-3.3.2.dist-info/licenses/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "769831d6e5dfaf2c20802faccff1fafb4c2025dd8f6253dfa47fcad59d4d0979",
+        "size_in_bytes": 1434,
+        "sha256_in_prefix": "769831d6e5dfaf2c20802faccff1fafb4c2025dd8f6253dfa47fcad59d4d0979"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet-3.3.2.dist-info/licenses/LICENSE.PSF",
+        "path_type": "hardlink",
+        "sha256": "e5ff3c23c110e494cd7d736c10fd96d462457bafeca310840db6527298c7d46b",
+        "size_in_bytes": 2424,
+        "sha256_in_prefix": "e5ff3c23c110e494cd7d736c10fd96d462457bafeca310840db6527298c7d46b"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet-3.3.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "6129d1b024683bad491a53f9ee8f2228beab74b5835ae8b2283f1e929594b037",
+        "size_in_bytes": 9,
+        "sha256_in_prefix": "6129d1b024683bad491a53f9ee8f2228beab74b5835ae8b2283f1e929594b037"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/CObjects.cpp",
+        "path_type": "hardlink",
+        "sha256": "38f7a3d5b58181ce2c46b4d143668514c2fda730d82a52a19494a3b08d17fde5",
+        "size_in_bytes": 3508,
+        "sha256_in_prefix": "38f7a3d5b58181ce2c46b4d143668514c2fda730d82a52a19494a3b08d17fde5"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/PyGreenlet.cpp",
+        "path_type": "hardlink",
+        "sha256": "f53cf07761691930b59189dcd9406e253dbf72e96db9665cc36e317caea8bcb1",
+        "size_in_bytes": 26311,
+        "sha256_in_prefix": "f53cf07761691930b59189dcd9406e253dbf72e96db9665cc36e317caea8bcb1"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/PyGreenlet.hpp",
+        "path_type": "hardlink",
+        "sha256": "d994253b160da32ed0c03ee6a691683977bf02de7a348b09d1e36c13f8684acc",
+        "size_in_bytes": 1463,
+        "sha256_in_prefix": "d994253b160da32ed0c03ee6a691683977bf02de7a348b09d1e36c13f8684acc"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/PyGreenletUnswitchable.cpp",
+        "path_type": "hardlink",
+        "sha256": "3d01347d265afc83b250ce38204487909a03d8ab465b7764864999498637587b",
+        "size_in_bytes": 4375,
+        "sha256_in_prefix": "3d01347d265afc83b250ce38204487909a03d8ab465b7764864999498637587b"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/PyModule.cpp",
+        "path_type": "hardlink",
+        "sha256": "b810b614eaee34a3a5703f059922340a44c992b99153bd5a298c27bd8d782ef5",
+        "size_in_bytes": 8649,
+        "sha256_in_prefix": "b810b614eaee34a3a5703f059922340a44c992b99153bd5a298c27bd8d782ef5"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/TBrokenGreenlet.cpp",
+        "path_type": "hardlink",
+        "sha256": "b26376eae0bb6a101b358892d74aed58f8c27931b88debccf2c880dac8c98978",
+        "size_in_bytes": 1021,
+        "sha256_in_prefix": "b26376eae0bb6a101b358892d74aed58f8c27931b88debccf2c880dac8c98978"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/TExceptionState.cpp",
+        "path_type": "hardlink",
+        "sha256": "53b0adc3d7c174dada4b4775ef8328416edb37e69edb4f536b426e88aa5ca552",
+        "size_in_bytes": 1359,
+        "sha256_in_prefix": "53b0adc3d7c174dada4b4775ef8328416edb37e69edb4f536b426e88aa5ca552"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/TGreenlet.cpp",
+        "path_type": "hardlink",
+        "sha256": "f0a4ff05fbeb196ecc66abd61b5b1af90341ca09b6695f62955d9cb2aaa39ba4",
+        "size_in_bytes": 25909,
+        "sha256_in_prefix": "f0a4ff05fbeb196ecc66abd61b5b1af90341ca09b6695f62955d9cb2aaa39ba4"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/TGreenlet.hpp",
+        "path_type": "hardlink",
+        "sha256": "e47910ff2cce3c8c9297b00bff568efb3d5619e5f19acf3e38bca0c964daa7f4",
+        "size_in_bytes": 28700,
+        "sha256_in_prefix": "e47910ff2cce3c8c9297b00bff568efb3d5619e5f19acf3e38bca0c964daa7f4"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/TGreenletGlobals.cpp",
+        "path_type": "hardlink",
+        "sha256": "6321260e329fd60df66ec2feba721449c14b9e70357f32d67f680e31df83d19c",
+        "size_in_bytes": 3264,
+        "sha256_in_prefix": "6321260e329fd60df66ec2feba721449c14b9e70357f32d67f680e31df83d19c"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/TMainGreenlet.cpp",
+        "path_type": "hardlink",
+        "sha256": "a41a82929fdc9374afed327aea0f505758fb8d9b77efc5a9a01a33559f568783",
+        "size_in_bytes": 3420,
+        "sha256_in_prefix": "a41a82929fdc9374afed327aea0f505758fb8d9b77efc5a9a01a33559f568783"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/TPythonState.cpp",
+        "path_type": "hardlink",
+        "sha256": "f024aeef1a01e94962c3b97ebd19a029b84f5b14f60725669bd91f5aeed03f7a",
+        "size_in_bytes": 17155,
+        "sha256_in_prefix": "f024aeef1a01e94962c3b97ebd19a029b84f5b14f60725669bd91f5aeed03f7a"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/TStackState.cpp",
+        "path_type": "hardlink",
+        "sha256": "578e3823c263f43850cfef657955bff5db624918da13534c9600c6d365f1abe6",
+        "size_in_bytes": 7381,
+        "sha256_in_prefix": "578e3823c263f43850cfef657955bff5db624918da13534c9600c6d365f1abe6"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/TThreadState.hpp",
+        "path_type": "hardlink",
+        "sha256": "4571b723ea0b496041c9c1d9e7badddc049ea97b230824cda7bb3f9126209c3a",
+        "size_in_bytes": 20439,
+        "sha256_in_prefix": "4571b723ea0b496041c9c1d9e7badddc049ea97b230824cda7bb3f9126209c3a"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/TThreadStateCreator.hpp",
+        "path_type": "hardlink",
+        "sha256": "b3e3c26a115ba7c9a94c82533840d958c29658b3c0dab0b9725657eadbf1038b",
+        "size_in_bytes": 2620,
+        "sha256_in_prefix": "b3e3c26a115ba7c9a94c82533840d958c29658b3c0dab0b9725657eadbf1038b"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/TThreadStateDestroy.cpp",
+        "path_type": "hardlink",
+        "sha256": "31286a2ed0ae5066902229c559ed9bec5cfe18f99554a01f57b15b1a16f81847",
+        "size_in_bytes": 8395,
+        "sha256_in_prefix": "31286a2ed0ae5066902229c559ed9bec5cfe18f99554a01f57b15b1a16f81847"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/TUserGreenlet.cpp",
+        "path_type": "hardlink",
+        "sha256": "b9e9a0d25c0a5ed601d32ce6bf261d20802c2a736489f5ccd4e2763a5ac53f50",
+        "size_in_bytes": 23553,
+        "sha256_in_prefix": "b9e9a0d25c0a5ed601d32ce6bf261d20802c2a736489f5ccd4e2763a5ac53f50"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "90a646ef5f6189c6e08922a4aedbdeb4b6e91ec54be0581ffa06c41bd2275a24",
+        "size_in_bytes": 1723,
+        "sha256_in_prefix": "90a646ef5f6189c6e08922a4aedbdeb4b6e91ec54be0581ffa06c41bd2275a24"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "54744f99420752712ad7f15424f9956e1ee6564fdbeb5213751bb83b48392504",
+        "size_in_bytes": 1021,
+        "sha256_in_prefix": "54744f99420752712ad7f15424f9956e1ee6564fdbeb5213751bb83b48392504"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/_greenlet.cp312-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "95fa2e1bbf9bc0e6c3d01e78d74ed38df82575ec690b8e807282c7a1ca8e8f7f",
+        "size_in_bytes": 85320,
+        "sha256_in_prefix": "95fa2e1bbf9bc0e6c3d01e78d74ed38df82575ec690b8e807282c7a1ca8e8f7f"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/greenlet.cpp",
+        "path_type": "hardlink",
+        "sha256": "99e9f35a589d7cdd837c1258040701f01a543862b55e030bba4782b04452a7f7",
+        "size_in_bytes": 11093,
+        "sha256_in_prefix": "99e9f35a589d7cdd837c1258040701f01a543862b55e030bba4782b04452a7f7"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/greenlet.h",
+        "path_type": "hardlink",
+        "sha256": "b33e69611490a9e7603add80320c4b65d4e33bea9caff24cbe0884251f48009f",
+        "size_in_bytes": 4755,
+        "sha256_in_prefix": "b33e69611490a9e7603add80320c4b65d4e33bea9caff24cbe0884251f48009f"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/greenlet_allocator.hpp",
+        "path_type": "hardlink",
+        "sha256": "9f6f2bc23efa4554a7ec1e500c0d349cbf0e0637c57a238cd501ab56b1e17ec9",
+        "size_in_bytes": 1835,
+        "sha256_in_prefix": "9f6f2bc23efa4554a7ec1e500c0d349cbf0e0637c57a238cd501ab56b1e17ec9"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/greenlet_compiler_compat.hpp",
+        "path_type": "hardlink",
+        "sha256": "9d1c692cdf6235b9cb57214379598ec3279e366eac710ace79dd65ec94183023",
+        "size_in_bytes": 4346,
+        "sha256_in_prefix": "9d1c692cdf6235b9cb57214379598ec3279e366eac710ace79dd65ec94183023"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/greenlet_cpython_compat.hpp",
+        "path_type": "hardlink",
+        "sha256": "38a2ea5a9ded9ac9a2821170f45039c5ae3ed7b18ef0ffad5d3a2b12b47bef2b",
+        "size_in_bytes": 4253,
+        "sha256_in_prefix": "38a2ea5a9ded9ac9a2821170f45039c5ae3ed7b18ef0ffad5d3a2b12b47bef2b"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/greenlet_exceptions.hpp",
+        "path_type": "hardlink",
+        "sha256": "d3a071f350ed55a2536ba46d88c715d78d5bf971efe29a4481522d91b95c2d66",
+        "size_in_bytes": 4503,
+        "sha256_in_prefix": "d3a071f350ed55a2536ba46d88c715d78d5bf971efe29a4481522d91b95c2d66"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/greenlet_internal.hpp",
+        "path_type": "hardlink",
+        "sha256": "02373eff4f56e315b39bd5dfc971c07900055202862ac9c9c18b130a8372de7b",
+        "size_in_bytes": 2709,
+        "sha256_in_prefix": "02373eff4f56e315b39bd5dfc971c07900055202862ac9c9c18b130a8372de7b"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/greenlet_msvc_compat.hpp",
+        "path_type": "hardlink",
+        "sha256": "2e0e71b55e73ad130819ca2278c2a65cf844cd7bb9e5aa9f3352fc3b28279806",
+        "size_in_bytes": 3195,
+        "sha256_in_prefix": "2e0e71b55e73ad130819ca2278c2a65cf844cd7bb9e5aa9f3352fc3b28279806"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/greenlet_refs.hpp",
+        "path_type": "hardlink",
+        "sha256": "3a76c0f75c997f74071faf9e25c72fa0d0c068dfa940130cadc9455353addc9e",
+        "size_in_bytes": 34436,
+        "sha256_in_prefix": "3a76c0f75c997f74071faf9e25c72fa0d0c068dfa940130cadc9455353addc9e"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/greenlet_slp_switch.hpp",
+        "path_type": "hardlink",
+        "sha256": "4f563ec34d7204196378f8878146960acdd765276d1d2aed2efbe431714350de",
+        "size_in_bytes": 3298,
+        "sha256_in_prefix": "4f563ec34d7204196378f8878146960acdd765276d1d2aed2efbe431714350de"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/greenlet_thread_support.hpp",
+        "path_type": "hardlink",
+        "sha256": "5d427a9635a37fd398cae3882e2cfc7bfc87bd3ddf6da5221dd8623cd414578b",
+        "size_in_bytes": 867,
+        "sha256_in_prefix": "5d427a9635a37fd398cae3882e2cfc7bfc87bd3ddf6da5221dd8623cd414578b"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/platform/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/platform/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "d51e4ba41832c75eb015ad3663ee3b2a1d3f466a16a2ffc9a0abe93b6697cd94",
+        "size_in_bytes": 144,
+        "sha256_in_prefix": "d51e4ba41832c75eb015ad3663ee3b2a1d3f466a16a2ffc9a0abe93b6697cd94"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/platform/setup_switch_x64_masm.cmd",
+        "path_type": "hardlink",
+        "sha256": "6690a5509794d2e8c43d24d63527a93f45b67fd5e2610280f10292a15a2ef045",
+        "size_in_bytes": 143,
+        "sha256_in_prefix": "6690a5509794d2e8c43d24d63527a93f45b67fd5e2610280f10292a15a2ef045"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/platform/switch_aarch64_gcc.h",
+        "path_type": "hardlink",
+        "sha256": "18a0b4c963579db2b65fef97e9a82e442323d9383b8435356649774658c3bc2f",
+        "size_in_bytes": 4307,
+        "sha256_in_prefix": "18a0b4c963579db2b65fef97e9a82e442323d9383b8435356649774658c3bc2f"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/platform/switch_alpha_unix.h",
+        "path_type": "hardlink",
+        "sha256": "67e4af17c250577a31593f0945b2fd445bb88111713dd27b72f88cf186b2326c",
+        "size_in_bytes": 671,
+        "sha256_in_prefix": "67e4af17c250577a31593f0945b2fd445bb88111713dd27b72f88cf186b2326c"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/platform/switch_amd64_unix.h",
+        "path_type": "hardlink",
+        "sha256": "11c485081968744061aa12a3709a98ff90e7fe39fba4aa642653afa7b8055cb2",
+        "size_in_bytes": 2748,
+        "sha256_in_prefix": "11c485081968744061aa12a3709a98ff90e7fe39fba4aa642653afa7b8055cb2"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/platform/switch_arm32_gcc.h",
+        "path_type": "hardlink",
+        "sha256": "6772a41eccdd82aeae53860ddc1c6f28c1b601d0e7a2fc0208daea1966752f2a",
+        "size_in_bytes": 2479,
+        "sha256_in_prefix": "6772a41eccdd82aeae53860ddc1c6f28c1b601d0e7a2fc0208daea1966752f2a"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/platform/switch_arm32_ios.h",
+        "path_type": "hardlink",
+        "sha256": "9a6e7f47d69707dda1cb1cc547007bd4ceb41fa025bc78eba53adcef63f3de5f",
+        "size_in_bytes": 1892,
+        "sha256_in_prefix": "9a6e7f47d69707dda1cb1cc547007bd4ceb41fa025bc78eba53adcef63f3de5f"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/platform/switch_arm64_masm.asm",
+        "path_type": "hardlink",
+        "sha256": "e24a53b5fcbbadf72bf23d42a492c02b6d44b59a460c025759153af07132e40f",
+        "size_in_bytes": 1245,
+        "sha256_in_prefix": "e24a53b5fcbbadf72bf23d42a492c02b6d44b59a460c025759153af07132e40f"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/platform/switch_arm64_masm.obj",
+        "path_type": "hardlink",
+        "sha256": "0e62e7201fe2728107033d676ae7bfa493d366047d12533bf8d9b3b6bfa8f7f5",
+        "size_in_bytes": 746,
+        "sha256_in_prefix": "0e62e7201fe2728107033d676ae7bfa493d366047d12533bf8d9b3b6bfa8f7f5"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/platform/switch_arm64_msvc.h",
+        "path_type": "hardlink",
+        "sha256": "46a2b93072e65c8dd0f8543bb66df62969db0cd64a9e425dabc091f3d733eb8d",
+        "size_in_bytes": 398,
+        "sha256_in_prefix": "46a2b93072e65c8dd0f8543bb66df62969db0cd64a9e425dabc091f3d733eb8d"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/platform/switch_csky_gcc.h",
+        "path_type": "hardlink",
+        "sha256": "9038a4ca23e97b03fbd4aa016503bf32e9034d74d70620bbc7e845d3fd832f4c",
+        "size_in_bytes": 1331,
+        "sha256_in_prefix": "9038a4ca23e97b03fbd4aa016503bf32e9034d74d70620bbc7e845d3fd832f4c"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/platform/switch_loongarch64_linux.h",
+        "path_type": "hardlink",
+        "sha256": "eccf8385ce10f2d45b2422616a50cbc14e92f4cc7c32398dd516d30e022f4133",
+        "size_in_bytes": 779,
+        "sha256_in_prefix": "eccf8385ce10f2d45b2422616a50cbc14e92f4cc7c32398dd516d30e022f4133"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/platform/switch_m68k_gcc.h",
+        "path_type": "hardlink",
+        "sha256": "5526ba369661bf2caf17e439f024c8592a440e8e052b280ec93cf4d3085cb65c",
+        "size_in_bytes": 928,
+        "sha256_in_prefix": "5526ba369661bf2caf17e439f024c8592a440e8e052b280ec93cf4d3085cb65c"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/platform/switch_mips_unix.h",
+        "path_type": "hardlink",
+        "sha256": "0ec6cd2e1dcd75edd68672b977035a56ef6beb48805a80b211e9b1c0104e1c12",
+        "size_in_bytes": 1462,
+        "sha256_in_prefix": "0ec6cd2e1dcd75edd68672b977035a56ef6beb48805a80b211e9b1c0104e1c12"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/platform/switch_ppc64_aix.h",
+        "path_type": "hardlink",
+        "sha256": "fc12f48b246bdd903988f96bdee93d489e6c35158660bad7719e73f8213d6a71",
+        "size_in_bytes": 3860,
+        "sha256_in_prefix": "fc12f48b246bdd903988f96bdee93d489e6c35158660bad7719e73f8213d6a71"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/platform/switch_ppc64_linux.h",
+        "path_type": "hardlink",
+        "sha256": "d2bae24f95f2c4f6f41aab124a7fdb3fd890b278ec3db066bb4caaa398284b24",
+        "size_in_bytes": 3815,
+        "sha256_in_prefix": "d2bae24f95f2c4f6f41aab124a7fdb3fd890b278ec3db066bb4caaa398284b24"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/platform/switch_ppc_aix.h",
+        "path_type": "hardlink",
+        "sha256": "a47038b251235053f72774989b54c094d3e181bd86fcf02d6b1e5c3bc0447b50",
+        "size_in_bytes": 2941,
+        "sha256_in_prefix": "a47038b251235053f72774989b54c094d3e181bd86fcf02d6b1e5c3bc0447b50"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/platform/switch_ppc_linux.h",
+        "path_type": "hardlink",
+        "sha256": "630ae5294cf1957ba228c42aafa305015d5b3f35a79af93a5f502a2591293965",
+        "size_in_bytes": 2759,
+        "sha256_in_prefix": "630ae5294cf1957ba228c42aafa305015d5b3f35a79af93a5f502a2591293965"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/platform/switch_ppc_macosx.h",
+        "path_type": "hardlink",
+        "sha256": "67a28dfee7749fa9c2de5b49acdcf6aadbc447abe7440551347f667480e93316",
+        "size_in_bytes": 2624,
+        "sha256_in_prefix": "67a28dfee7749fa9c2de5b49acdcf6aadbc447abe7440551347f667480e93316"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/platform/switch_ppc_unix.h",
+        "path_type": "hardlink",
+        "sha256": "f991bb31248f100e4de2a3bd3d00a1b72109f859baa889e1c999bf6411d3b4c8",
+        "size_in_bytes": 2652,
+        "sha256_in_prefix": "f991bb31248f100e4de2a3bd3d00a1b72109f859baa889e1c999bf6411d3b4c8"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/platform/switch_riscv_unix.h",
+        "path_type": "hardlink",
+        "sha256": "eb4e95e800837fbf45cff58622d9e481b8c8274a4683fb0798fc83c5060a2b9f",
+        "size_in_bytes": 949,
+        "sha256_in_prefix": "eb4e95e800837fbf45cff58622d9e481b8c8274a4683fb0798fc83c5060a2b9f"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/platform/switch_s390_unix.h",
+        "path_type": "hardlink",
+        "sha256": "451946bbde7bc9b9aaf79a8d358e10c3599c6a84f77819d6e4a6d5c2ee3c297f",
+        "size_in_bytes": 2763,
+        "sha256_in_prefix": "451946bbde7bc9b9aaf79a8d358e10c3599c6a84f77819d6e4a6d5c2ee3c297f"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/platform/switch_sh_gcc.h",
+        "path_type": "hardlink",
+        "sha256": "99c449053bbed9405fe2466d5fad35aa87f0b83bb2f98fa19f126dadc681edda",
+        "size_in_bytes": 901,
+        "sha256_in_prefix": "99c449053bbed9405fe2466d5fad35aa87f0b83bb2f98fa19f126dadc681edda"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/platform/switch_sparc_sun_gcc.h",
+        "path_type": "hardlink",
+        "sha256": "c598ac87d1ac3070627a751b50cb17d7e659f9ab3b86cdfab15858204ddec3c6",
+        "size_in_bytes": 2797,
+        "sha256_in_prefix": "c598ac87d1ac3070627a751b50cb17d7e659f9ab3b86cdfab15858204ddec3c6"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/platform/switch_x32_unix.h",
+        "path_type": "hardlink",
+        "sha256": "9ccf7c3cab734d673595c33b4d1314649cec915751d42ebd53552a651597d061",
+        "size_in_bytes": 1509,
+        "sha256_in_prefix": "9ccf7c3cab734d673595c33b4d1314649cec915751d42ebd53552a651597d061"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/platform/switch_x64_masm.asm",
+        "path_type": "hardlink",
+        "sha256": "9eeea7dac5b25ee5dfa4fc78d1df5898b7c75d4735b0781e4ef5f5914ceebc43",
+        "size_in_bytes": 1841,
+        "sha256_in_prefix": "9eeea7dac5b25ee5dfa4fc78d1df5898b7c75d4735b0781e4ef5f5914ceebc43"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/platform/switch_x64_masm.obj",
+        "path_type": "hardlink",
+        "sha256": "18db5337161da3b89d15462c42ffa6ad75a0c93e4427ddfef6af7494deacbed4",
+        "size_in_bytes": 1078,
+        "sha256_in_prefix": "18db5337161da3b89d15462c42ffa6ad75a0c93e4427ddfef6af7494deacbed4"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/platform/switch_x64_msvc.h",
+        "path_type": "hardlink",
+        "sha256": "2c879ab322a8fef1f3b2974cccc1dba2c461ac17ca23806440e878a9c4c7c89c",
+        "size_in_bytes": 1805,
+        "sha256_in_prefix": "2c879ab322a8fef1f3b2974cccc1dba2c461ac17ca23806440e878a9c4c7c89c"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/platform/switch_x86_msvc.h",
+        "path_type": "hardlink",
+        "sha256": "4ed18ec229db15f9e7e9c97130d902cfc8ba3a6801ea4551ad2868179893f6da",
+        "size_in_bytes": 12838,
+        "sha256_in_prefix": "4ed18ec229db15f9e7e9c97130d902cfc8ba3a6801ea4551ad2868179893f6da"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/platform/switch_x86_unix.h",
+        "path_type": "hardlink",
+        "sha256": "569956f47d051747191f0d4384974852ce6ae982d2e1cc1bda76308c5f37475b",
+        "size_in_bytes": 3059,
+        "sha256_in_prefix": "569956f47d051747191f0d4384974852ce6ae982d2e1cc1bda76308c5f37475b"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/slp_platformselect.h",
+        "path_type": "hardlink",
+        "sha256": "8536f718575c3d46094eebb5318f778ececc6446b1d7f7b913e81f9698b44732",
+        "size_in_bytes": 3959,
+        "sha256_in_prefix": "8536f718575c3d46094eebb5318f778ececc6446b1d7f7b913e81f9698b44732"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "12d4ed41fa510dd7b4321b1d00ce429bb2d821f4bf1ca508170aae887e10eda7",
+        "size_in_bytes": 9736,
+        "sha256_in_prefix": "12d4ed41fa510dd7b4321b1d00ce429bb2d821f4bf1ca508170aae887e10eda7"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/tests/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "856d7142ad278676dd03b8eb3f3e10ab287b0030192fbd9ba1568a63e2c92ed8",
+        "size_in_bytes": 9180,
+        "sha256_in_prefix": "856d7142ad278676dd03b8eb3f3e10ab287b0030192fbd9ba1568a63e2c92ed8"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/tests/__pycache__/fail_clearing_run_switches.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "dfcc47fc19b221b591dcfd43d02bc30557a51687a7bd469d14e7327de21ca359",
+        "size_in_bytes": 2029,
+        "sha256_in_prefix": "dfcc47fc19b221b591dcfd43d02bc30557a51687a7bd469d14e7327de21ca359"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/tests/__pycache__/fail_cpp_exception.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "0eeea04c270f6bb20e0c9c88fc51980f957db71d56eb089656873ebefe9a501a",
+        "size_in_bytes": 1564,
+        "sha256_in_prefix": "0eeea04c270f6bb20e0c9c88fc51980f957db71d56eb089656873ebefe9a501a"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/tests/__pycache__/fail_initialstub_already_started.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "27257776c81f86dcd84e54d13cdab74282fda11d835b2c0ef0b496dd39f05ea6",
+        "size_in_bytes": 3432,
+        "sha256_in_prefix": "27257776c81f86dcd84e54d13cdab74282fda11d835b2c0ef0b496dd39f05ea6"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/tests/__pycache__/fail_slp_switch.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "b298b508ef25191cfb749f6a3bf8f4eef92612bf0d16d2180ca7c314c61847bd",
+        "size_in_bytes": 1257,
+        "sha256_in_prefix": "b298b508ef25191cfb749f6a3bf8f4eef92612bf0d16d2180ca7c314c61847bd"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/tests/__pycache__/fail_switch_three_greenlets.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "137f87161ffb5a8be886759f666502cdab0294a9a1e87842de9b5c0cc5258eef",
+        "size_in_bytes": 1673,
+        "sha256_in_prefix": "137f87161ffb5a8be886759f666502cdab0294a9a1e87842de9b5c0cc5258eef"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/tests/__pycache__/fail_switch_three_greenlets2.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "f1edc89e8afef3383429cc6274093422b225a82107a481dcaaefeea80e8c602d",
+        "size_in_bytes": 2527,
+        "sha256_in_prefix": "f1edc89e8afef3383429cc6274093422b225a82107a481dcaaefeea80e8c602d"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/tests/__pycache__/fail_switch_two_greenlets.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "59ddea0be5457df6cdf1086cc1ef0d177bd88fa5e78937d9ead530259b54e061",
+        "size_in_bytes": 1644,
+        "sha256_in_prefix": "59ddea0be5457df6cdf1086cc1ef0d177bd88fa5e78937d9ead530259b54e061"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/tests/__pycache__/leakcheck.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "43af3f2e54d001c43ac09352609467c6e4c7a44ae7b99c785e6b3a652c9ad311",
+        "size_in_bytes": 11636,
+        "sha256_in_prefix": "43af3f2e54d001c43ac09352609467c6e4c7a44ae7b99c785e6b3a652c9ad311"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/tests/__pycache__/test_contextvars.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "9df14b7cd1cbb160854869188a9b5fc389872cb19ef8f6e7ca1e181537b69103",
+        "size_in_bytes": 15353,
+        "sha256_in_prefix": "9df14b7cd1cbb160854869188a9b5fc389872cb19ef8f6e7ca1e181537b69103"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/tests/__pycache__/test_cpp.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "9a40e25107f859b1d11962c2ffac9aaf4321c51385137753efae672f0ef6d456",
+        "size_in_bytes": 4041,
+        "sha256_in_prefix": "9a40e25107f859b1d11962c2ffac9aaf4321c51385137753efae672f0ef6d456"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/tests/__pycache__/test_extension_interface.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "43b5cdd035d03ffe962855b8f132c97692065700a97fb5278900746334e8980f",
+        "size_in_bytes": 7401,
+        "sha256_in_prefix": "43b5cdd035d03ffe962855b8f132c97692065700a97fb5278900746334e8980f"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/tests/__pycache__/test_gc.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "f4e46989471cc8b1045271dca89eb61b08ceb0523ce78e7e40c79ce67a357bee",
+        "size_in_bytes": 4867,
+        "sha256_in_prefix": "f4e46989471cc8b1045271dca89eb61b08ceb0523ce78e7e40c79ce67a357bee"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/tests/__pycache__/test_generator.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "65c391181bc5e7c767c43e0e6a6c6c9d5d9a086c8e651ec234f21491ddf319be",
+        "size_in_bytes": 3017,
+        "sha256_in_prefix": "65c391181bc5e7c767c43e0e6a6c6c9d5d9a086c8e651ec234f21491ddf319be"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/tests/__pycache__/test_generator_nested.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "438c91a522576ec1d1ef1a3883c103d7d3017993e5e9664a70883093e2d705ff",
+        "size_in_bytes": 7711,
+        "sha256_in_prefix": "438c91a522576ec1d1ef1a3883c103d7d3017993e5e9664a70883093e2d705ff"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/tests/__pycache__/test_greenlet.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "5377b5b74a33e4ef8d08b695b972ccf2e58df0f4ae1b2b52c54d0fa03c5f969b",
+        "size_in_bytes": 76101,
+        "sha256_in_prefix": "5377b5b74a33e4ef8d08b695b972ccf2e58df0f4ae1b2b52c54d0fa03c5f969b"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/tests/__pycache__/test_greenlet_trash.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "7cc803d9d408e1801d2e470e5688e5ceabb8a7b7750d7b8d43e76ebd6bc2381c",
+        "size_in_bytes": 6724,
+        "sha256_in_prefix": "7cc803d9d408e1801d2e470e5688e5ceabb8a7b7750d7b8d43e76ebd6bc2381c"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/tests/__pycache__/test_interpreter_shutdown.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "d2dc2b7685d2da376c0e6b9d8d8488d303ba45c2caceeed9a9f55acdf23cc31d",
+        "size_in_bytes": 13009,
+        "sha256_in_prefix": "d2dc2b7685d2da376c0e6b9d8d8488d303ba45c2caceeed9a9f55acdf23cc31d"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/tests/__pycache__/test_leaks.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "f03cadc516d36b5644d9cd16a3e05a0e0b393dabd1708fb8a11a09a61daa3b9a",
+        "size_in_bytes": 20089,
+        "sha256_in_prefix": "f03cadc516d36b5644d9cd16a3e05a0e0b393dabd1708fb8a11a09a61daa3b9a"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/tests/__pycache__/test_stack_saved.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "d8f84c29a0289a4e54c35dcec2185d0bcc90d2ff172bca518c2df24080d49549",
+        "size_in_bytes": 1296,
+        "sha256_in_prefix": "d8f84c29a0289a4e54c35dcec2185d0bcc90d2ff172bca518c2df24080d49549"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/tests/__pycache__/test_throw.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "2a899f43c2d83bc2e26b1e1dacab0cb769e4d402b42b99f98cb5bb61c95836e1",
+        "size_in_bytes": 7304,
+        "sha256_in_prefix": "2a899f43c2d83bc2e26b1e1dacab0cb769e4d402b42b99f98cb5bb61c95836e1"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/tests/__pycache__/test_tracing.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "7a0db5a555bf11dcf60954ecdbecbf2bcfc55a95232b505deffff057210c5403",
+        "size_in_bytes": 13790,
+        "sha256_in_prefix": "7a0db5a555bf11dcf60954ecdbecbf2bcfc55a95232b505deffff057210c5403"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/tests/__pycache__/test_version.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "f96c77a81fb2bf3fcbf0fd169d93d0e12138d3a77d549445c4540a15115dc07a",
+        "size_in_bytes": 2503,
+        "sha256_in_prefix": "f96c77a81fb2bf3fcbf0fd169d93d0e12138d3a77d549445c4540a15115dc07a"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/tests/__pycache__/test_weakref.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "50adb0e50a108993fd8ad930356e509d2548cb9ebdf3e36a5e77d169e23ad9f2",
+        "size_in_bytes": 2687,
+        "sha256_in_prefix": "50adb0e50a108993fd8ad930356e509d2548cb9ebdf3e36a5e77d169e23ad9f2"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/tests/_test_extension.c",
+        "path_type": "hardlink",
+        "sha256": "0c44ed09af1cbcf810d8aad2426f6396a65295bff5c74a376b1c9d9b380fa214",
+        "size_in_bytes": 6921,
+        "sha256_in_prefix": "0c44ed09af1cbcf810d8aad2426f6396a65295bff5c74a376b1c9d9b380fa214"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/tests/_test_extension.cp312-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "a72c791d8ce33482991b98a33084e287ce4e118bff0ecb53ca902fdee9dd3f72",
+        "size_in_bytes": 26440,
+        "sha256_in_prefix": "a72c791d8ce33482991b98a33084e287ce4e118bff0ecb53ca902fdee9dd3f72"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/tests/_test_extension_cpp.cp312-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "06b267a8b0c0584ed0c2f0fd51337d3c409994cea65f1a7744b77123d7aebc70",
+        "size_in_bytes": 27976,
+        "sha256_in_prefix": "06b267a8b0c0584ed0c2f0fd51337d3c409994cea65f1a7744b77123d7aebc70"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/tests/_test_extension_cpp.cpp",
+        "path_type": "hardlink",
+        "sha256": "55b90698ec3d6faa678f93aca906bb382e5a3df201ca7c7e6954175c5f6e59c1",
+        "size_in_bytes": 6686,
+        "sha256_in_prefix": "55b90698ec3d6faa678f93aca906bb382e5a3df201ca7c7e6954175c5f6e59c1"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/tests/fail_clearing_run_switches.py",
+        "path_type": "hardlink",
+        "sha256": "a38df7a00fe7502b4e3da30419cf1512164829aef58a65475c5c3b4ec5da3fc3",
+        "size_in_bytes": 1263,
+        "sha256_in_prefix": "a38df7a00fe7502b4e3da30419cf1512164829aef58a65475c5c3b4ec5da3fc3"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/tests/fail_cpp_exception.py",
+        "path_type": "hardlink",
+        "sha256": "a3f65b8a95a292893c06373ebe3890bdc6f91478769d55be31c18a30b70cce1d",
+        "size_in_bytes": 985,
+        "sha256_in_prefix": "a3f65b8a95a292893c06373ebe3890bdc6f91478769d55be31c18a30b70cce1d"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/tests/fail_initialstub_already_started.py",
+        "path_type": "hardlink",
+        "sha256": "b7110d9f9232cc6c76a7e5d1d5707ba97982f095ffe26283100f246015d440a7",
+        "size_in_bytes": 1961,
+        "sha256_in_prefix": "b7110d9f9232cc6c76a7e5d1d5707ba97982f095ffe26283100f246015d440a7"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/tests/fail_slp_switch.py",
+        "path_type": "hardlink",
+        "sha256": "ac90597197d3591dded84450b4f02e77a60a4a1883b0ff383e6c0e25ba787b2d",
+        "size_in_bytes": 524,
+        "sha256_in_prefix": "ac90597197d3591dded84450b4f02e77a60a4a1883b0ff383e6c0e25ba787b2d"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/tests/fail_switch_three_greenlets.py",
+        "path_type": "hardlink",
+        "sha256": "cd28ad57bae43676a81d857300618b9f1cfec8fb68857249cda13c7a11434343",
+        "size_in_bytes": 956,
+        "sha256_in_prefix": "cd28ad57bae43676a81d857300618b9f1cfec8fb68857249cda13c7a11434343"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/tests/fail_switch_three_greenlets2.py",
+        "path_type": "hardlink",
+        "sha256": "14f25e9ec9f6109c68ae8a65d372524d53f79203f7de4d3887a683596a33ace9",
+        "size_in_bytes": 1285,
+        "sha256_in_prefix": "14f25e9ec9f6109c68ae8a65d372524d53f79203f7de4d3887a683596a33ace9"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/tests/fail_switch_two_greenlets.py",
+        "path_type": "hardlink",
+        "sha256": "d42688f2cdf9d3855b6c5d6f8f5b8162ecbecf10475731cf2007752c873c38d8",
+        "size_in_bytes": 817,
+        "sha256_in_prefix": "d42688f2cdf9d3855b6c5d6f8f5b8162ecbecf10475731cf2007752c873c38d8"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/tests/leakcheck.py",
+        "path_type": "hardlink",
+        "sha256": "7f6f3365fd0c94c81cc9b6e6ff963220e47a1dc0ea3f67f693a2d7f85c451aa0",
+        "size_in_bytes": 12652,
+        "sha256_in_prefix": "7f6f3365fd0c94c81cc9b6e6ff963220e47a1dc0ea3f67f693a2d7f85c451aa0"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/tests/test_contextvars.py",
+        "path_type": "hardlink",
+        "sha256": "c6eb4efaa660293c0ab00f6502a4e321c4c1122415e11a4d28cfaf3b6fd80955",
+        "size_in_bytes": 10541,
+        "sha256_in_prefix": "c6eb4efaa660293c0ab00f6502a4e321c4c1122415e11a4d28cfaf3b6fd80955"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/tests/test_cpp.py",
+        "path_type": "hardlink",
+        "sha256": "869c6114074a253a405593fc0811acd5972b29db1c23d05a0d99386ed908e5de",
+        "size_in_bytes": 2736,
+        "sha256_in_prefix": "869c6114074a253a405593fc0811acd5972b29db1c23d05a0d99386ed908e5de"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/tests/test_extension_interface.py",
+        "path_type": "hardlink",
+        "sha256": "789ddcc0b69c74ad966ecac2fb80e07b21ddc0b45c1b8cf1eebae446da92cc2e",
+        "size_in_bytes": 3829,
+        "sha256_in_prefix": "789ddcc0b69c74ad966ecac2fb80e07b21ddc0b45c1b8cf1eebae446da92cc2e"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/tests/test_gc.py",
+        "path_type": "hardlink",
+        "sha256": "c6b22b790afce5e3bc5a5a47b3a21609ae42e1e70803ab76fc8ae44bbe857638",
+        "size_in_bytes": 2922,
+        "sha256_in_prefix": "c6b22b790afce5e3bc5a5a47b3a21609ae42e1e70803ab76fc8ae44bbe857638"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/tests/test_generator.py",
+        "path_type": "hardlink",
+        "sha256": "b4e3578937fdf151a6df8ee8d5bfbcd7475a3e2c1d95ae5c6e9160e902354758",
+        "size_in_bytes": 1240,
+        "sha256_in_prefix": "b4e3578937fdf151a6df8ee8d5bfbcd7475a3e2c1d95ae5c6e9160e902354758"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/tests/test_generator_nested.py",
+        "path_type": "hardlink",
+        "sha256": "eefe07398adfd5764fdfd764e4850cb9b759f32737ca7c1972a8fd1942723120",
+        "size_in_bytes": 3718,
+        "sha256_in_prefix": "eefe07398adfd5764fdfd764e4850cb9b759f32737ca7c1972a8fd1942723120"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/tests/test_greenlet.py",
+        "path_type": "hardlink",
+        "sha256": "a11ad40061056fe185f06355105b1762fceb6b295e179a900dd036416798122b",
+        "size_in_bytes": 48439,
+        "sha256_in_prefix": "a11ad40061056fe185f06355105b1762fceb6b295e179a900dd036416798122b"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/tests/test_greenlet_trash.py",
+        "path_type": "hardlink",
+        "sha256": "9f67419507cea043b53836ad162f107616e81f77c1f3a62dab3718318397c5bc",
+        "size_in_bytes": 7947,
+        "sha256_in_prefix": "9f67419507cea043b53836ad162f107616e81f77c1f3a62dab3718318397c5bc"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/tests/test_interpreter_shutdown.py",
+        "path_type": "hardlink",
+        "sha256": "d5c86592f8140f9834cb796c1479bb4a31d3de124f4c9c292f52e6478afada96",
+        "size_in_bytes": 11949,
+        "sha256_in_prefix": "d5c86592f8140f9834cb796c1479bb4a31d3de124f4c9c292f52e6478afada96"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/tests/test_leaks.py",
+        "path_type": "hardlink",
+        "sha256": "f0d73393620021e618a0750ebb080273d72f562715c4ec99d1b49d8cd850aaa7",
+        "size_in_bytes": 18923,
+        "sha256_in_prefix": "f0d73393620021e618a0750ebb080273d72f562715c4ec99d1b49d8cd850aaa7"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/tests/test_stack_saved.py",
+        "path_type": "hardlink",
+        "sha256": "7b2cea358d95086b86971853fc89fa4ef67a3a46f40171595720449cad630f00",
+        "size_in_bytes": 446,
+        "sha256_in_prefix": "7b2cea358d95086b86971853fc89fa4ef67a3a46f40171595720449cad630f00"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/tests/test_throw.py",
+        "path_type": "hardlink",
+        "sha256": "bb64d0fd6bef09de8de89757588c5511c5e42aee5f7a90e5cfd764b58766b678",
+        "size_in_bytes": 3712,
+        "sha256_in_prefix": "bb64d0fd6bef09de8de89757588c5511c5e42aee5f7a90e5cfd764b58766b678"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/tests/test_tracing.py",
+        "path_type": "hardlink",
+        "sha256": "3450fa55cc30f20ac19c540584235db30c067ad8cb78b43bbcbd90ab0dcb5813",
+        "size_in_bytes": 8591,
+        "sha256_in_prefix": "3450fa55cc30f20ac19c540584235db30c067ad8cb78b43bbcbd90ab0dcb5813"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/tests/test_version.py",
+        "path_type": "hardlink",
+        "sha256": "3bd0e90084ec38582245c8dde28750ede8e6c31fcdf50d7340435571bb451c87",
+        "size_in_bytes": 1339,
+        "sha256_in_prefix": "3bd0e90084ec38582245c8dde28750ede8e6c31fcdf50d7340435571bb451c87"
+      },
+      {
+        "_path": "Lib/site-packages/greenlet/tests/test_weakref.py",
+        "path_type": "hardlink",
+        "sha256": "17c336ddbb4417cedb21ba69b4b341391a2c6d0a8d64689878a32a6235abb1a9",
+        "size_in_bytes": 883,
+        "sha256_in_prefix": "17c336ddbb4417cedb21ba69b4b341391a2c6d0a8d64689878a32a6235abb1a9"
+      },
+      {
+        "_path": "include/greenlet/greenlet.h",
+        "path_type": "hardlink",
+        "sha256": "b33e69611490a9e7603add80320c4b65d4e33bea9caff24cbe0884251f48009f",
+        "size_in_bytes": 4755,
+        "sha256_in_prefix": "b33e69611490a9e7603add80320c4b65d4e33bea9caff24cbe0884251f48009f"
+      }
+    ]
+  },
+  "link": {
+    "source": "C:\\Users\\asus\\anaconda3\\pkgs\\greenlet-3.3.2-py312hd7fb8db_0",
+    "type": 1
+  }
+}
