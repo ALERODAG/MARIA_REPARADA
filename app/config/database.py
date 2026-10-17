@@ -14,7 +14,7 @@ DATABASE_URL = os.getenv(
     f"mysql+pymysql://{os.getenv('DB_USER')}:{os.getenv('DB_PASSWORD')}@{os.getenv('DB_HOST')}:{os.getenv('DB_PORT')}/{os.getenv('DB_NAME')}")
 
 
-#Motor de SQLAlchemy para conectarse a la base de datos MySQL
+# Motor de SQLAlchemy para conectarse a la base de datos MySQL
 engine = create_engine(
     DATABASE_URL, 
     pool_recycle=3600,  # Reciclamos la conexión cada hora
